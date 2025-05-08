@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumièra Boutique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #e1c9c1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #d9b3b0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            background-color: #b88a7a;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #333;
+        }
+        .products img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .product {
+            width: 30%;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product h3 {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d9b3b0;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lumièra Boutique</h1>
+        <img src="logo.jpg" alt="Logo Lumièra Boutique" style="max-width: 150px; margin-top: 10px;">
+    </header>
+    <nav>
+        <a href="#">Strona Główna</a>
+        <a href="#">Sklep</a>
+        <a href="#">O nas</a>
+        <a href="#">Kontakt</a>
+    </nav>
+    <section>
+        <h2>Nasze Produkty</h2>
+        <div class="products">
+            <div class="product">
+                <img src="produkt1.jpg" alt="Naszyjnik 1">
+                <h3>Naszyjnik Kwiatowy</h3>
+                <p>Piękny naszyjnik z ręcznie robionymi kwiatami.</p>
+                <button>Dodaj do koszyka</button>
+            </div>
+            <div class="product">
+                <img src="produkt2.jpg" alt="Naszyjnik 2">
+                <h3>Naszyjnik Perłowy</h3>
+                <p>Elegancki naszyjnik z naturalnymi perłami.</p>
+                <button>Dodaj do koszyka</button>
+            </div>
+            <div class="product">
+                <img src="produkt3.jpg" alt="Naszyjnik 3">
+                <h3>Naszyjnik Złoty</h3>
+                <p>Wysokiej jakości złoty naszyjnik na specjalne okazje.</p>
+                <button>Dodaj do koszyka</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Lumièra Boutique. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
